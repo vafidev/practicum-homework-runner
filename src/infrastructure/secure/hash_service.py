@@ -3,8 +3,8 @@ import asyncio
 from argon2 import PasswordHasher, Type
 from argon2.exceptions import InvalidHashError, VerifyMismatchError
 
-from config.argon_settings import get_argon_settings
-from infrastructure.log.logger import logger
+from src.config.argon_settings import get_argon_settings
+from src.infrastructure.log.logger import logger
 
 
 class ArgonService:
